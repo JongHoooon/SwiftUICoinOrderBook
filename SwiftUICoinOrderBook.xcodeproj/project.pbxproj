@@ -7,18 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED971F5E2B0D896C004534A0 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED971F5D2B0D896C004534A0 /* WalletView.swift */; };
+		ED971F602B0D9A9B004534A0 /* WalletDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED971F5F2B0D9A9B004534A0 /* WalletDetailView.swift */; };
+		ED971F622B0DA52C004534A0 /* WalletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED971F612B0DA52C004534A0 /* WalletModel.swift */; };
+		ED99F0512B0C4A230056BFA5 /* OvserlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99F0502B0C4A230056BFA5 /* OvserlayView.swift */; };
+		ED99F0542B0C4E6C0056BFA5 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99F0532B0C4E6C0056BFA5 /* UpbitAPI.swift */; };
+		ED99F0562B0C59700056BFA5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99F0552B0C59700056BFA5 /* ContentViewModel.swift */; };
+		ED99F0582B0C73410056BFA5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99F0572B0C73410056BFA5 /* ListView.swift */; };
+		ED99F05A2B0C73830056BFA5 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99F0592B0C73830056BFA5 /* ListViewModel.swift */; };
+		ED99F05E2B0C80BE0056BFA5 /* BannerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99F05D2B0C80BE0056BFA5 /* BannerTestView.swift */; };
 		EDA6C6972B0B00120057FA73 /* SwiftUICoinOrderBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C6962B0B00120057FA73 /* SwiftUICoinOrderBookApp.swift */; };
 		EDA6C6992B0B00120057FA73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C6982B0B00120057FA73 /* ContentView.swift */; };
 		EDA6C69B2B0B00140057FA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA6C69A2B0B00140057FA73 /* Assets.xcassets */; };
 		EDA6C69E2B0B00140057FA73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA6C69D2B0B00140057FA73 /* Preview Assets.xcassets */; };
+		EDA6C6A62B0B09540057FA73 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C6A42B0B09540057FA73 /* Money.swift */; };
+		EDA6C6A72B0B09540057FA73 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C6A52B0B09540057FA73 /* Banner.swift */; };
+		EDDB52F72B141D8D003CB7D4 /* SeSACView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52F62B141D8D003CB7D4 /* SeSACView.swift */; };
+		EDDB52F92B141E65003CB7D4 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52F82B141E65003CB7D4 /* MyWebView.swift */; };
+		EDDB52FB2B1421C0003CB7D4 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52FA2B1421C0003CB7D4 /* MyTextField.swift */; };
+		EDDB52FE2B143269003CB7D4 /* HorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52FD2B143269003CB7D4 /* HorizontalView.swift */; };
+		EDDB53002B143574003CB7D4 /* HorizontalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB52FF2B143574003CB7D4 /* HorizontalData.swift */; };
+		EDDB53022B143C67003CB7D4 /* HorizontalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB53012B143C67003CB7D4 /* HorizontalViewModel.swift */; };
+		EDDB530F2B17655F003CB7D4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB530E2B17655F003CB7D4 /* WidgetKit.framework */; };
+		EDDB53112B17655F003CB7D4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB53102B17655F003CB7D4 /* SwiftUI.framework */; };
+		EDDB53142B176560003CB7D4 /* OrderBookWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB53132B176560003CB7D4 /* OrderBookWidgetBundle.swift */; };
+		EDDB53162B176560003CB7D4 /* OrderBookWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB53152B176560003CB7D4 /* OrderBookWidget.swift */; };
+		EDDB53182B176561003CB7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDB53172B176561003CB7D4 /* Assets.xcassets */; };
+		EDDB531C2B176561003CB7D4 /* OrderBookWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EDDB530C2B17655F003CB7D4 /* OrderBookWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EDDB531A2B176561003CB7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA6C68B2B0B00120057FA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDB530B2B17655F003CB7D4;
+			remoteInfo = OrderBookWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDDB531D2B176561003CB7D4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDDB531C2B176561003CB7D4 /* OrderBookWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ED971F5D2B0D896C004534A0 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		ED971F5F2B0D9A9B004534A0 /* WalletDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDetailView.swift; sourceTree = "<group>"; };
+		ED971F612B0DA52C004534A0 /* WalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletModel.swift; sourceTree = "<group>"; };
+		ED99F0502B0C4A230056BFA5 /* OvserlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvserlayView.swift; sourceTree = "<group>"; };
+		ED99F0532B0C4E6C0056BFA5 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
+		ED99F0552B0C59700056BFA5 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		ED99F0572B0C73410056BFA5 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		ED99F0592B0C73830056BFA5 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		ED99F05D2B0C80BE0056BFA5 /* BannerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTestView.swift; sourceTree = "<group>"; };
 		EDA6C6932B0B00120057FA73 /* SwiftUICoinOrderBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoinOrderBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA6C6962B0B00120057FA73 /* SwiftUICoinOrderBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoinOrderBookApp.swift; sourceTree = "<group>"; };
 		EDA6C6982B0B00120057FA73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDA6C69A2B0B00140057FA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA6C69D2B0B00140057FA73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDA6C6A42B0B09540057FA73 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		EDA6C6A52B0B09540057FA73 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		EDDB52F62B141D8D003CB7D4 /* SeSACView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACView.swift; sourceTree = "<group>"; };
+		EDDB52F82B141E65003CB7D4 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		EDDB52FA2B1421C0003CB7D4 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		EDDB52FD2B143269003CB7D4 /* HorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalView.swift; sourceTree = "<group>"; };
+		EDDB52FF2B143574003CB7D4 /* HorizontalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalData.swift; sourceTree = "<group>"; };
+		EDDB53012B143C67003CB7D4 /* HorizontalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewModel.swift; sourceTree = "<group>"; };
+		EDDB530C2B17655F003CB7D4 /* OrderBookWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OrderBookWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDB530E2B17655F003CB7D4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EDDB53102B17655F003CB7D4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EDDB53132B176560003CB7D4 /* OrderBookWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookWidgetBundle.swift; sourceTree = "<group>"; };
+		EDDB53152B176560003CB7D4 /* OrderBookWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookWidget.swift; sourceTree = "<group>"; };
+		EDDB53172B176561003CB7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDDB53192B176561003CB7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,21 +100,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDDB53092B17655F003CB7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB53112B17655F003CB7D4 /* SwiftUI.framework in Frameworks */,
+				EDDB530F2B17655F003CB7D4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED99F04F2B0C438A0056BFA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C6A52B0B09540057FA73 /* Banner.swift */,
+				EDA6C6A42B0B09540057FA73 /* Money.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED99F0522B0C4E590056BFA5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ED99F0532B0C4E6C0056BFA5 /* UpbitAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ED99F05B2B0C739B0056BFA5 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				ED99F0572B0C73410056BFA5 /* ListView.swift */,
+				ED99F0592B0C73830056BFA5 /* ListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		ED99F05C2B0C73A00056BFA5 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C6982B0B00120057FA73 /* ContentView.swift */,
+				ED99F0552B0C59700056BFA5 /* ContentViewModel.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		EDA6C68A2B0B00120057FA73 = {
 			isa = PBXGroup;
 			children = (
 				EDA6C6952B0B00120057FA73 /* SwiftUICoinOrderBook */,
+				EDDB53122B17655F003CB7D4 /* OrderBookWidget */,
+				EDDB530D2B17655F003CB7D4 /* Frameworks */,
 				EDA6C6942B0B00120057FA73 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		EDA6C6942B0B00120057FA73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				EDA6C6932B0B00120057FA73 /* SwiftUICoinOrderBook.app */,
+				EDDB530C2B17655F003CB7D4 /* OrderBookWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +171,18 @@
 		EDA6C6952B0B00120057FA73 /* SwiftUICoinOrderBook */ = {
 			isa = PBXGroup;
 			children = (
+				EDDB52FC2B143236003CB7D4 /* Horizontal */,
+				EDDB52F52B141D7E003CB7D4 /* WithUIKit */,
+				ED99F04F2B0C438A0056BFA5 /* Model */,
 				EDA6C6962B0B00120057FA73 /* SwiftUICoinOrderBookApp.swift */,
-				EDA6C6982B0B00120057FA73 /* ContentView.swift */,
+				ED99F05C2B0C73A00056BFA5 /* Content */,
+				ED99F05B2B0C739B0056BFA5 /* List */,
+				ED99F0502B0C4A230056BFA5 /* OvserlayView.swift */,
+				ED971F5D2B0D896C004534A0 /* WalletView.swift */,
+				ED971F612B0DA52C004534A0 /* WalletModel.swift */,
+				ED971F5F2B0D9A9B004534A0 /* WalletDetailView.swift */,
+				ED99F05D2B0C80BE0056BFA5 /* BannerTestView.swift */,
+				ED99F0522B0C4E590056BFA5 /* Network */,
 				EDA6C69A2B0B00140057FA73 /* Assets.xcassets */,
 				EDA6C69C2B0B00140057FA73 /* Preview Content */,
 			);
@@ -67,6 +197,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EDDB52F52B141D7E003CB7D4 /* WithUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB52F62B141D8D003CB7D4 /* SeSACView.swift */,
+				EDDB52FA2B1421C0003CB7D4 /* MyTextField.swift */,
+				EDDB52F82B141E65003CB7D4 /* MyWebView.swift */,
+			);
+			path = WithUIKit;
+			sourceTree = "<group>";
+		};
+		EDDB52FC2B143236003CB7D4 /* Horizontal */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB52FD2B143269003CB7D4 /* HorizontalView.swift */,
+				EDDB53012B143C67003CB7D4 /* HorizontalViewModel.swift */,
+				EDDB52FF2B143574003CB7D4 /* HorizontalData.swift */,
+			);
+			path = Horizontal;
+			sourceTree = "<group>";
+		};
+		EDDB530D2B17655F003CB7D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB530E2B17655F003CB7D4 /* WidgetKit.framework */,
+				EDDB53102B17655F003CB7D4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDDB53122B17655F003CB7D4 /* OrderBookWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB53132B176560003CB7D4 /* OrderBookWidgetBundle.swift */,
+				EDDB53152B176560003CB7D4 /* OrderBookWidget.swift */,
+				EDDB53172B176561003CB7D4 /* Assets.xcassets */,
+				EDDB53192B176561003CB7D4 /* Info.plist */,
+			);
+			path = OrderBookWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +247,34 @@
 				EDA6C68F2B0B00120057FA73 /* Sources */,
 				EDA6C6902B0B00120057FA73 /* Frameworks */,
 				EDA6C6912B0B00120057FA73 /* Resources */,
+				EDDB531D2B176561003CB7D4 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EDDB531B2B176561003CB7D4 /* PBXTargetDependency */,
 			);
 			name = SwiftUICoinOrderBook;
 			productName = SwiftUICoinOrderBook;
 			productReference = EDA6C6932B0B00120057FA73 /* SwiftUICoinOrderBook.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EDDB530B2B17655F003CB7D4 /* OrderBookWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDB53202B176561003CB7D4 /* Build configuration list for PBXNativeTarget "OrderBookWidgetExtension" */;
+			buildPhases = (
+				EDDB53082B17655F003CB7D4 /* Sources */,
+				EDDB53092B17655F003CB7D4 /* Frameworks */,
+				EDDB530A2B17655F003CB7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderBookWidgetExtension;
+			productName = OrderBookWidgetExtension;
+			productReference = EDDB530C2B17655F003CB7D4 /* OrderBookWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +287,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					EDA6C6922B0B00120057FA73 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EDDB530B2B17655F003CB7D4 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -116,6 +308,7 @@
 			projectRoot = "";
 			targets = (
 				EDA6C6922B0B00120057FA73 /* SwiftUICoinOrderBook */,
+				EDDB530B2B17655F003CB7D4 /* OrderBookWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +323,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDDB530A2B17655F003CB7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB53182B176561003CB7D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +338,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED99F0582B0C73410056BFA5 /* ListView.swift in Sources */,
+				ED99F05A2B0C73830056BFA5 /* ListViewModel.swift in Sources */,
+				ED971F5E2B0D896C004534A0 /* WalletView.swift in Sources */,
+				EDA6C6A62B0B09540057FA73 /* Money.swift in Sources */,
+				ED99F0542B0C4E6C0056BFA5 /* UpbitAPI.swift in Sources */,
+				EDA6C6A72B0B09540057FA73 /* Banner.swift in Sources */,
+				ED99F0562B0C59700056BFA5 /* ContentViewModel.swift in Sources */,
+				EDDB52F92B141E65003CB7D4 /* MyWebView.swift in Sources */,
 				EDA6C6992B0B00120057FA73 /* ContentView.swift in Sources */,
+				EDDB53002B143574003CB7D4 /* HorizontalData.swift in Sources */,
+				EDDB52F72B141D8D003CB7D4 /* SeSACView.swift in Sources */,
+				ED971F622B0DA52C004534A0 /* WalletModel.swift in Sources */,
+				EDDB52FB2B1421C0003CB7D4 /* MyTextField.swift in Sources */,
+				EDDB52FE2B143269003CB7D4 /* HorizontalView.swift in Sources */,
+				ED971F602B0D9A9B004534A0 /* WalletDetailView.swift in Sources */,
+				ED99F0512B0C4A230056BFA5 /* OvserlayView.swift in Sources */,
+				ED99F05E2B0C80BE0056BFA5 /* BannerTestView.swift in Sources */,
+				EDDB53022B143C67003CB7D4 /* HorizontalViewModel.swift in Sources */,
 				EDA6C6972B0B00120057FA73 /* SwiftUICoinOrderBookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDDB53082B17655F003CB7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDB53142B176560003CB7D4 /* OrderBookWidgetBundle.swift in Sources */,
+				EDDB53162B176560003CB7D4 /* OrderBookWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDDB531B2B176561003CB7D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDDB530B2B17655F003CB7D4 /* OrderBookWidgetExtension */;
+			targetProxy = EDDB531A2B176561003CB7D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EDA6C69F2B0B00140057FA73 /* Debug */ = {
@@ -267,6 +502,7 @@
 		EDA6C6A22B0B00140057FA73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +532,7 @@
 		EDA6C6A32B0B00140057FA73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +559,60 @@
 			};
 			name = Release;
 		};
+		EDDB531E2B176561003CB7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82J7RU93V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderBookWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderBookWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JongHoon.SwiftUICoinOrderBook.OrderBookWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDDB531F2B176561003CB7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82J7RU93V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderBookWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderBookWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JongHoon.SwiftUICoinOrderBook.OrderBookWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +630,15 @@
 			buildConfigurations = (
 				EDA6C6A22B0B00140057FA73 /* Debug */,
 				EDA6C6A32B0B00140057FA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDB53202B176561003CB7D4 /* Build configuration list for PBXNativeTarget "OrderBookWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDB531E2B176561003CB7D4 /* Debug */,
+				EDDB531F2B176561003CB7D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
